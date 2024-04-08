@@ -1,0 +1,31 @@
+int num
+
+read num
+
+if(num % 2 == 0)
+
+	print " number is even"
+	print " another line to print"
+
+if(num % 2 !=0)
+
+	print " number is odd"
+
+
+============================================================================
+
+1. int num
+
+2. read num
+
+3. if(num % 2 == 0)
+4.		print " number is even"
+		print " another line to print	
+5.
+6. end if
+
+5. else
+
+6.	print " number is odd"
+
+7, end else

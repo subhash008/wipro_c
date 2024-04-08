@@ -1,0 +1,51 @@
+1. int num1, num2, sum 
+
+2. Print " Enter two numbers"
+
+3. Read num1 and num2
+
+4. sum = num1 && num2 
+
+5. Print sum
+
+
+void main()
+{
+	int num1,num2,sum;
+
+	printf("Enter two numbers\n ");
+
+	scanf("%d %d ", &num1, &num2);
+
+	sum = num1 + num2;
+
+	printf("Sum : %d ", sum);
+}
+
+
+int num1, num2, sum 
+
+Print " Enter two numbers"
+
+Read num1 and num2
+
+sum = num1 + num2
+
+Print sum
+
+
+
+psvm()
+{
+	int num1,num2,sum;
+	
+
+	System.out.println("Enter two numbers ");
+	num1= in.nextInt();
+	num2= in.nextInt();
+	sum = num1 + num2;
+
+	System.out.println("Sum : " + sum);
+	
+
+}

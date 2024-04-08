@@ -1,0 +1,229 @@
+
+if( in <9)
+{
+	if(in<6){
+		tax=0
+	}
+	else{
+		tax=10
+	}
+
+}
+
+else
+{
+	if(in<12){
+		tax=15
+	}
+	else{
+		
+		if(in<15){
+			tax=20;
+		}
+		else{
+			tax=30
+		}	
+	}
+}
+====================================================================================================
+
+if(in<6)
+	tax=0
+	
+else if(in<9)
+	tax=10
+		
+else if(in<12)
+	tax=15
+		
+else if(in<15)
+	tax=20
+	
+else
+	tax=30
+	
+
+	
+//outside else if
+
+=======================================================================================================
+
+// switch statment
+
+int day=;
+
+switch( day)
+{
+	case 1 :
+			print " Mon"
+			break;
+	case 2 : 
+			print "Tue"
+			break;
+	case 3 :
+			print "Wed"
+			break;
+	default:
+	
+			print " valid days are 1 2 and 3 only"
+} 
+=================================================================
+ if(day <= 5 && day >0)
+
+	print "week day"
+	
+else if (day == 6 )
+
+	print "Week end"
+
+else  if(day ==7)
+	print "Holiday"
+	
+else 
+	print " 1,2 and 3,4,5,6,7 are the valid days";
+	
+============================================================================
+switch (day)
+{
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+			print " Week days"  // this statment will be executed for the value of day (1,2,3,4,5)
+			break;   
+	case 6: 
+			print " Week end"
+			break;
+	case 7 :
+			print " Holiday"
+			break;
+	default:
+			print " 1,2 and 3,4,5,6,7 are the valid days";
+}
+	
+====================================================
+
+char membership = 'K' 
+
+switch (membership)
+{
+	case 'D' : 
+				print " meal and briyani"
+	
+	case 'P' :
+				print " Pizza"
+				
+	case 'G' :
+	
+				print " Maggie"
+	case 'S' :
+				print " Tea"
+				break
+	default :
+				print " Enter a valid membership option "
+
+}
+===================================================================================================================
+// Looping 
+
+//entry control
+
+
+int i=-5;
+
+
+while (i>0)
+{
+
+	print "Hello"
+
+	i= i -1;
+	
+}
+
+code outside loop 
+// dry run
+
+i = 1 , 2 , 3, 4, 5, 6, ,7,8,9,10,11
+
+i=10, 9,8,7,6,5,4,3,2,1,0
+=========================================================================================================
+// exit control
+
+int i=1;
+
+do 
+{
+	print i
+	
+	// before change
+	
+	i = i+1
+	
+	// after change
+	
+} while(i<=10);
+
+
+eg:
+
+
+
+i = 1 , 2 , 3, 4, 5, 6, ,7,8,9,10,11
+
+=====================================================================================================
+
+// entry control
+
+//int i;
+
+for (int i=1; i<=10 ; i = i+1)
+{
+
+	print i
+
+}
+
+
+//print i
+
+
+for i = 11 to 20
+
+	print i
+	
+end for
+===============================================================
+
+add num1 and num2 store the result in summary
+
+// sum = num1 + num2
+
+
+n=5
+
+
+f=1
+
+
+i=1 
+	f=f*1 => 1
+i=2
+	f=f*2 => 2
+i=3
+	f=f*3 => 6
+i=4
+	f=f*4 => 24
+
+i=5
+
+	f=f*5 => 120
+
+
+The factorial of 5 is : 120
+
+n=-3
+
+
+Error: Factorial is not defined for negative numbers.

@@ -1,0 +1,25 @@
+ int num
+
+ read num =104
+
+
+ if(num % 2 == 0 && num < 100)
+
+{
+		
+		
+	print " Number is even"
+	print " <100"
+}
+		
+
+ else{
+
+
+	if(num % 2 == 0)
+
+
+
+	if(num < 100)
+	
+}

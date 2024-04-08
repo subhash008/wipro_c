@@ -1,0 +1,30 @@
+1. int age, ticket=5
+
+2. print "enter age "
+
+3. read age
+
+4. if(age < 60)
+
+5.	ticket=10
+
+6. print ticket
+
+
+//Dry Run
+
+ticket=5
+age = 45
+
+ticket=10
+
+output => 10
+
+//
+
+ticket=5
+age =70
+
+output => 5
+
+

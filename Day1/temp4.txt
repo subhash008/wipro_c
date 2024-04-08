@@ -1,0 +1,17 @@
+1. int age, ticket
+
+2. print "enter age "
+
+3. read age
+
+4. if(age <60)
+
+5.	ticket=10
+
+6. else
+
+7.	ticket =5
+
+8. print ticket
+
+

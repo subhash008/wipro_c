@@ -1,0 +1,32 @@
+
+ int num
+
+ read num
+
+ if(num % 2 == 0)
+
+{
+	print " number is even"
+		
+		if(num < 100 )
+			print " Number is less then 100"
+		else
+			print " Number is more then 100"
+
+}
+		
+
+ else{
+
+	print " number is odd"
+
+	if(num < 100 )
+			print " Number is less then 100"
+		else
+			print " Number is more then 100"
+
+}
+
+
+	
+
